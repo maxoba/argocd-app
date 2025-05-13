@@ -18,7 +18,7 @@ spec:
         app: wema
     spec:
       containers:
-      - image: maxoba/kubernginx:2.0.0
+      - image: maxoba/kubernginx:4.0.0
         name: kubernginx
         resources: {}
 status: {}
