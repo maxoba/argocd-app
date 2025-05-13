@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: wema
+  name: wema
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wema
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: wema
+    spec:
+      containers:
+      - image: maxoba/kubernginx:2.0.0
+        name: kubernginx
+        resources: {}
+status: {}
