@@ -9,7 +9,7 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: demo
+      app: wema
   strategy: {}
   template:
     metadata:
