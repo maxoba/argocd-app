@@ -15,7 +15,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: demo
+        app: wema
     spec:
       containers:
         - image: maxoba/kubenginx:4.0.0
