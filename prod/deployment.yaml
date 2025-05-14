@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: demo
-  name: demo
+    app: wema
+  name: wema
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       app: demo
@@ -18,7 +18,7 @@ spec:
         app: demo
     spec:
       containers:
-        - image: maxoba/kubenginx:2.0.0
+        - image: maxoba/kubenginx:4.0.0
           name: kubernetes
           resources: {}
 status: {}
