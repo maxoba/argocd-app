@@ -6,7 +6,7 @@ metadata:
     app: wema
   name: wema
 spec:
-  replicas: 4
+  replicas: 12
   selector:
     matchLabels:
       app: wema
